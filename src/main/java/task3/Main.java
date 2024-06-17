@@ -6,4 +6,17 @@ package task3;
 
 
 public class Main {
+    public static void main(String[] args) {
+        Pair<Integer, String> pair = new Pair<>(1, "Hello");
+        Pair<Double, Character> pair2 = new Pair<> (2.5, 'A');
+
+
+        System.out.println(pair.getFirst());
+        System.out.println(pair.getSecond());
+        System.out.println(pair);
+
+        System.out.println(pair2.getFirst());
+        System.out.println(pair2.getSecond());
+        System.out.println(pair2);
+    }
 }
